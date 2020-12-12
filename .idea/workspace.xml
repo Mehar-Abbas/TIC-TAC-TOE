@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="added start in pck.json">
+    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="removed node modules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607748809367</updated>
       <workItem from="1607748811335" duration="1997000" />
-      <workItem from="1607778226672" duration="10663000" />
+      <workItem from="1607778226672" duration="11180000" />
     </task>
     <task id="LOCAL-00001" summary="node-project dir commit">
       <created>1607789022034</created>
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607790445884</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed node modules">
+      <created>1607790843099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607790843099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +127,7 @@
     <MESSAGE value="node-project dir commit" />
     <MESSAGE value="node-project package.json commit" />
     <MESSAGE value="added start in pck.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="added start in pck.json" />
+    <MESSAGE value="removed node modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed node modules" />
   </component>
 </project>
