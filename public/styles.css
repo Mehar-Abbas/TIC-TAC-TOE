@@ -1,0 +1,31 @@
+
+/*styling of our game*/
+
+/**, *::after, *::before{*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*:root {*/
+/*    --cell-size: 100px*/
+
+/*}*/
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+.game-board {
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    /*background-color: blue;*/
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid white;
+}
