@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="removed node modules">
+    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="added port 8080 in app">
+      <change afterPath="$PROJECT_DIR$/public/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style1.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -51,6 +56,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\node-project\public" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.app.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -74,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607748809367</updated>
       <workItem from="1607748811335" duration="1997000" />
-      <workItem from="1607778226672" duration="11180000" />
+      <workItem from="1607778226672" duration="22630000" />
     </task>
     <task id="LOCAL-00001" summary="node-project dir commit">
       <created>1607789022034</created>
@@ -104,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607790843099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added start in script">
+      <created>1607791184165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607791184165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added port 8080 in app">
+      <created>1607791397626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607791397626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +152,8 @@
     <MESSAGE value="node-project package.json commit" />
     <MESSAGE value="added start in pck.json" />
     <MESSAGE value="removed node modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed node modules" />
+    <MESSAGE value="added start in script" />
+    <MESSAGE value="added port 8080 in app" />
+    <option name="LAST_COMMIT_MESSAGE" value="added port 8080 in app" />
   </component>
 </project>
