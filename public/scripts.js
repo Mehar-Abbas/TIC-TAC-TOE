@@ -14,15 +14,21 @@ const WINNING_COMBINATIONS = [
 const cellElements = document.querySelectorAll('[data-cell]')
 const winningMessageElement = document.getElementById('winning-message')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
+const restartButton = document.getElementById('Restart-Button')
 let circlesTurn
 
 startGame()
+restartButton.addEventListener('click', startGame)
 
 function startGame() {
     circlesTurn = false
-cellElements.forEach(cell => {
+    cellElements.forEach(cell => {
+        cell.classList.remove(X_CLASS)
+        cell.classList.remove(CIRCLE_CLASS)
+        cell.removeEventListener('click',afterClick)
         cell.addEventListener('click', afterClick, {once: true})
     })
+    winningMessageElement.classList.remove('show')
 }
 
 function afterClick(e) {
@@ -40,7 +46,7 @@ function afterClick(e) {
 
 function endGame(draw) {
     if(draw) {
-        winningMessageElement.innerText = "Draw!"
+        winningMessageTextElement.innerText = "Draw!"
     } else {
         winningMessageTextElement.innerText = `${circlesTurn ? "O's" :"X's "} Wins!`
 }
