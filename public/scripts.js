@@ -31,17 +31,26 @@ function afterClick(e) {
     putMark(cell, currentClass)
     if (checkforWin(currentClass)) {
         endGame(false)
+    } else if(isDraw()) {
+        endGame(true)
+    } else {
+        swapTurn()
     }
-    swapTurn()
 }
 
 function endGame(draw) {
     if(draw) {
-
+        winningMessageElement.innerText = "Draw!"
     } else {
         winningMessageTextElement.innerText = `${circlesTurn ? "O's" :"X's "} Wins!`
 }
     winningMessageElement.classList.add('show')
+}
+
+function isDraw(){
+    return [...cellElements].every(cell => {
+        return cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
+    })
 }
 
 function putMark(cell, currentClass) {

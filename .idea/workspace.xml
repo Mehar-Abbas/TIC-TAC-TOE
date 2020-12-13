@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="js working-2">
+    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="js working-3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607748809367</updated>
       <workItem from="1607748811335" duration="1997000" />
-      <workItem from="1607778226672" duration="47423000" />
+      <workItem from="1607778226672" duration="48182000" />
     </task>
     <task id="LOCAL-00001" summary="node-project dir commit">
       <created>1607789022034</created>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607835439808</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="js working-3">
+      <created>1607836663055</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607836663055</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +206,7 @@
     <MESSAGE value="css done" />
     <MESSAGE value="js working-1" />
     <MESSAGE value="js working-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="js working-2" />
+    <MESSAGE value="js working-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="js working-3" />
   </component>
 </project>
