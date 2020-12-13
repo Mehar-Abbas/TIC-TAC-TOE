@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="game ready to deploy on the web - 8080">
+    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="game ready to deploy on the web - at any port">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <workItem from="1607748811335" duration="1997000" />
       <workItem from="1607778226672" duration="50516000" />
       <workItem from="1607841118696" duration="490000" />
-      <workItem from="1607879544307" duration="1993000" />
+      <workItem from="1607879544307" duration="9067000" />
     </task>
     <task id="LOCAL-00001" summary="node-project dir commit">
       <created>1607789022034</created>
@@ -205,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607841248737</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="game ready to deploy on the web - at any port">
+      <created>1607886012095</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607886012095</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +252,7 @@
     <MESSAGE value="win,draw-working-commit-5" />
     <MESSAGE value="game is working perfectly" />
     <MESSAGE value="game ready to deploy on the web - 8080" />
-    <option name="LAST_COMMIT_MESSAGE" value="game ready to deploy on the web - 8080" />
+    <MESSAGE value="game ready to deploy on the web - at any port" />
+    <option name="LAST_COMMIT_MESSAGE" value="game ready to deploy on the web - at any port" />
   </component>
 </project>

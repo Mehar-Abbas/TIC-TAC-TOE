@@ -1,17 +1,19 @@
 
-/*styling of our game*/
+/* -----------------   TIC TAC TOE Game implemented with Node.js using HTML, CSS and JAVASCRIPT  -------------------------------//
+// -----------------   It is played by 2-players choosing between 'X' or 'O'                     -------------------------------*/
+
+/* ------------------------------ styling of our game ------------------------------------------------------------------------- */
 
 *, *::after, *::before{
     box-sizing: border-box;
 }
 
 /* Variables to use in styling*/
-
 :root {
     --cell-size: 100px;
     --mark-size: calc(var(--cell-size) * .9);
 }
-
+/* styling of the header Game Name */
 .game-name {
     color: black;
     text-align: center;
@@ -23,6 +25,7 @@ body {
     background-color: gray;
 }
 
+/* styling the game board */
 .game-board {
     width: 100vw;
     height: 100vh;
@@ -34,6 +37,7 @@ body {
     align-items: center;
 }
 
+/* styling for all the 9 cells */
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
@@ -44,7 +48,7 @@ body {
     position: relative;
     cursor: pointer;
 }
-
+/* removing the top, bottom, left and right borders of the grid to look like a real tic-tac-toe board */
 .cell:first-child,
 .cell:nth-child(2),
 .cell:nth-child(3) {
@@ -65,11 +69,13 @@ body {
     border-bottom: none;
 }
 
+/* styling to show that the second click in an already filled cell is not allowed */
 .cell.x,
 .cell.circle {
     cursor: not-allowed;
 }
 
+/* styling the letter 'X' through CSS */
 .cell.x::before,
 .cell.x::after {
     content: '';
@@ -87,6 +93,7 @@ body {
     transform: rotate(-45deg);
 }
 
+/* styling the 'O' through CSS by making two circles */
 .cell.circle::before,
 .cell.circle::after {
     content: '';
@@ -108,6 +115,7 @@ body {
     background-color: gray;
 }
 
+/* styling to diplay the win message , that dimms the screen to 90% transparent only */
 .winning-message {
     display: none;
     position:  fixed;
@@ -115,17 +123,19 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.9);  /* setting black color for dimming incase of endGame() */
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 5rem;
     flex-direction: column;
 }
+/* styling to show the win message */
 .winning-message.show {
     display: flex;
 }
 
+/* styling for the 'REPLAY ??' button */
 .winning-message button {
     font-size: 3rem;
     background-color: white;
