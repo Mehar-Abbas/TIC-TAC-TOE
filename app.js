@@ -1,10 +1,14 @@
+// main app.js file that starts the web server
 
 const path = require("path")
 const http = require("http")
 const fs = require("fs")
 
-const port = 8080
-//
+// port 3000 for running on localhost
+// port 8080 for running on the web in OpenShift
+const port = process.env.PORT || 3000
+
+// creating the server
 const server = http.createServer((req, res) => {
 
     let filePath = path.join(__dirname, "public", req.url === "/" ? "index.html" : req.url)
@@ -29,9 +33,9 @@ const server = http.createServer((req, res) => {
 
 })
 
-server.listen( port, function (error) {
+server.listen(port, function (error) {
     if(error) {
-        console.log("something went wrong", error)
+        console.log("Something went wrong", error)
     } else{
         console.log("Server is listening on port " + port)
     }
