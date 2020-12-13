@@ -12,6 +12,8 @@ const WINNING_COMBINATIONS = [
     [2,4,6]
 ]
 const cellElements = document.querySelectorAll('[data-cell]')
+const winningMessageElement = document.getElementById('winning-message')
+const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
 let circlesTurn
 
 startGame()
@@ -28,11 +30,20 @@ function afterClick(e) {
     const currentClass = circlesTurn ? CIRCLE_CLASS : X_CLASS
     putMark(cell, currentClass)
     if (checkforWin(currentClass)) {
-        console.log('winner')
+        endGame(false)
     }
     swapTurn()
-
 }
+
+function endGame(draw) {
+    if(draw) {
+
+    } else {
+        winningMessageTextElement.innerText = `${circlesTurn ? "O's" :"X's "} Wins!`
+}
+    winningMessageElement.classList.add('show')
+}
+
 function putMark(cell, currentClass) {
     cell.classList.add(currentClass)
 }
