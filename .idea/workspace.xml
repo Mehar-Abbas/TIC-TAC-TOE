@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="added port 8080 in app">
-      <change afterPath="$PROJECT_DIR$/public/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
+    <list default="true" id="6040de3c-c2e0-45a9-b98b-1dc9d41ffd17" name="Default Changelist" comment="port 8080">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style1.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607748809367</updated>
       <workItem from="1607748811335" duration="1997000" />
-      <workItem from="1607778226672" duration="22630000" />
+      <workItem from="1607778226672" duration="34057000" />
     </task>
     <task id="LOCAL-00001" summary="node-project dir commit">
       <created>1607789022034</created>
@@ -128,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607791397626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working on local">
+      <created>1607805162588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607805162588</updated>
+    </task>
+    <task id="LOCAL-00008" summary="working on local">
+      <created>1607805179665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607805179665</updated>
+    </task>
+    <task id="LOCAL-00009" summary="port 8080">
+      <created>1607805503296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607805503296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +173,8 @@
     <MESSAGE value="removed node modules" />
     <MESSAGE value="added start in script" />
     <MESSAGE value="added port 8080 in app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added port 8080 in app" />
+    <MESSAGE value="working on local" />
+    <MESSAGE value="port 8080" />
+    <option name="LAST_COMMIT_MESSAGE" value="port 8080" />
   </component>
 </project>
