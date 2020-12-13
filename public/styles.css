@@ -70,10 +70,6 @@ body {
     cursor: not-allowed;
 }
 
-/*.game-board.x.cell:hover {*/
-/*    b*/
-/*}*/
-
 .cell.x::before,
 .cell.x::after {
     content: '';
@@ -90,7 +86,6 @@ body {
 .cell.x::after {
     transform: rotate(-45deg);
 }
-
 
 .cell.circle::before,
 .cell.circle::after {
