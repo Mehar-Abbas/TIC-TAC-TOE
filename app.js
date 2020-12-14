@@ -10,7 +10,7 @@ const fs = require("fs")
 
 // port 3000 for running on localhost
 // port 8080 for running on the web in OpenShift
-const port = process.env.PORT || 3000
+const port = 8080
 
 // creating the server
 const server = http.createServer((req, res) => {
